@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Visual Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .image-container {
+            margin-top: 25px;
+        }
+
+        .rounded-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /* Ensures the image fills the circle without distortion */
+            border: 5px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Visual Page!</h1>
+        <p>This page has some basic styling to make it more visually appealing.</p>
+        <a href="#" class="button">Click Me</a>
+
+        <div class="image-container">
+            <img src="placeholder_image.jpg" alt="Placeholder Image" class="rounded-image">
+            <p style="margin-top: 10px; font-size: 0.9em; color: #777;">A placeholder image</p>
+        </div>
+    </div>
+</body>
+</html>
